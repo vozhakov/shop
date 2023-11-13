@@ -1,0 +1,79 @@
+/* для views/main/home_view.php и
+ views/catalog/index_view.php */
+h2 span.new-product {
+  color: #FF0000;
+  font-size: 70%;
+}
+
+/* для views/catalog/index_view.php */
+
+/*
+ul.subcategory li.active a {
+color: #FE980F;	
+}
+*/
+ul.subcategory li:hover a {
+color: #FED80F;	
+}
+
+
+ul.subcategory {
+	display: none;
+}
+
+.category-products .panel-default .panel-heading:hover ul.subcategory {
+   display: block !important;
+}
+
+/* для views/product/view_view.php */ 
+.view-product img {
+  height: 130px; 
+  width: 199px;
+}
+.placement{
+  margin-bottom: 10px;
+}
+
+/* для views/catalog/subcategory_view.php */ 
+li a.active {
+  color: #FE980F;
+}
+
+/* для views/user/register_view.php */ 
+input#name, input#email, input#password1, input#password2 {
+ width: 200px;
+}
+
+div.row.last{
+  margin-top: 20px;
+}
+.error {
+  color: red;
+}
+div.mainmenu ul li a.current {
+  color: #FE980F;
+}
+
+/* для файлов main_tpl.php и mainAuthorized_tpl .php */
+div ul li.in-cart a {
+ color: #FE980F;
+ font-size: 120%; 
+}
+
+div.login-form form input.btn.btn-default.btn-checkout {
+  max-width: 160px;
+}
+
+/* для function addProductByAdmin() в файле Product_model.php */
+.good {
+  color: green;
+}
+
+/* Для файла views/adminSale/index_view.php  */
+.sum {
+border: 1px solid #C0C0C0;
+text-align: center;   
+} 
+hr {
+  margin: 1px;
+}

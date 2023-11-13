@@ -1,0 +1,25 @@
+/* Пагинация  */
+.disabled a:hover{
+	cursor: not-allowed;
+}
+#visib1, #visib2{
+	display: none;
+}
+.pagination li{
+	 list-style-type: none;
+	 display: inline;
+	 background-color: #ccc;
+	 margin-right: 2px;
+}
+.pagination li a{
+text-decoration: none;
+padding: 5px;	
+}
+.pagination li.active{
+background-color: #808080;
+ 	
+}
+.pagination {
+	display: inline-block;
+	padding-top: 10px;
+}
